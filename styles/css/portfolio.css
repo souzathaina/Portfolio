@@ -1,89 +1,78 @@
-/* Reset de margens e preenchimentos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo do corpo */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #0d0d0d; /* Fundo preto */
-    color: #e0e0e0; /* Texto claro */
+    background-color: #0d0d0d; 
+    color: #e0e0e0; 
     line-height: 1.6;
 }
 
-/* Cabeçalho */
 header {
-    background-image: url('URL_DA_IMAGEM_DE_FUNDO'); /* Adicione a URL da imagem de fundo */
     background-size: cover;
     background-position: center;
     padding: 30px 0;
     text-align: center;
-    border-bottom: 3px solid #5a5eff; /* Tom de roxo */
-    position: relative; /* Para controlar o z-index das crianças */
+    border-bottom: 3px solid #5a5eff; 
+    position: relative; 
 }
 
-/* Título do cabeçalho */
 header h1 {
     font-size: 3rem;
-    color: #5a5eff; /* Tom de roxo */
+    color: #5a5eff; 
     position: relative;
-    z-index: 1; /* Eleva o h1 acima da imagem de fundo */
+    z-index: 1; 
 }
 
-/* Navegação do cabeçalho */
 header nav {
     margin-top: 20px;
 }
 
 header nav a {
     text-decoration: none;
-    color: #5a5eff; /* Tom de roxo */
+    color: #5a5eff; 
     font-size: 1.2rem;
     margin: 0 20px;
     transition: color 0.3s ease;
 }
 
 header nav a:hover {
-    color: #a0a0ff; /* Tom de roxo mais claro */
+    color: #a0a0ff; 
 }
 
-/* Imagem de perfil */
 .Thaina {
     width: 150px;
     border-radius: 50%;
-    border: 3px solid #5a5eff; /* Tom de roxo */
+    border: 3px solid #5a5eff; 
     margin-top: 15px;
     position: relative;
-    z-index: 2; /* Eleva a imagem acima do cabeçalho */
+    z-index: 2; 
 }
 
-/* Container principal */
 #container {
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
-    background: #1a1a1a; /* Cor do fundo do container */
+    background: #1a1a1a; 
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(151, 71, 255, 0.562);
 }
 
-/* Estilo de títulos */
 h1,
 h2,
 h3,
 h4 {
-    color: #5a5eff; /* Tom de roxo */
+    color: #5a5eff; 
 }
 
-/* Estilo dos parágrafos */
 p {
     font-size: 1.1rem;
     text-align: justify;
 }
 
-/* Estilo de formulários */
 form {
     margin: 20px 0;
 }
@@ -91,7 +80,7 @@ form {
 label {
     display: block;
     margin: 10px 0;
-    color: #5a5eff; /* Tom de roxo */
+    color: #5a5eff; 
 }
 
 input,
@@ -99,22 +88,21 @@ textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    background-color: #333; /* Fundo escuro */
+    background-color: #333; 
     border: none;
     border-radius: 5px;
-    color: #f0f0f0; /* Texto claro */
+    color: #f0f0f0; 
 }
 
 input:focus,
 textarea:focus {
     outline: none;
-    border: 2px solid #5a5eff; /* Tom de roxo */
-    background-color: #444; /* Tom mais claro */
+    border: 2px solid #5a5eff;
+    background-color: #444;
 }
 
-/* Estilo do botão */
 button {
-    background-color: #5a5eff; /* Tom de roxo */
+    background-color: #5a5eff; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -124,10 +112,9 @@ button {
 }
 
 button:hover {
-    background-color: #7700ff; /* Tom de roxo mais escuro */
+    background-color: #7700ff; 
 }
 
-/* Lista de projetos */
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +122,6 @@ button:hover {
     margin-top: 20px;
 }
 
-/* Cartão de projeto */
 .project-card {
     display: block;
     border: 1px solid #333;
@@ -144,39 +130,36 @@ button:hover {
     text-decoration: none;
     color: inherit;
     border-radius: 8px;
-    background-color: #333; /* Fundo escuro */
+    background-color: #333;
     transition: background-color 0.3s ease;
 }
 
 .project-card:hover {
-    background-color: #7343bf; /* Tom de roxo mais escuro */
+    background-color: #7343bf; 
     cursor: pointer;
 }
 
 .project-card a {
-    color: #8a69be; /* Tom de roxo */
+    color: #8a69be; 
     font-weight: bold;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .project-card a:hover {
-    color: #a0a0ff; /* Tom de roxo mais claro */
+    color: #a0a0ff; 
 }
 
-/* Área de texto não redimensionável */
 textarea {
     resize: none;
 }
 
-/* Contato */
 #contact {
     margin-top: 50px;
-    border: 2px dotted #5a5eff; /* Tom de roxo */
+    border: 2px dotted #5a5eff; 
     padding: 30px;
 }
 
-/* Ícones do GitHub e LinkedIn */
 .github {
     width: 100px; 
     height: auto; 
@@ -189,15 +172,14 @@ textarea {
     margin-top: 15px; 
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #1a1a1a; /* Fundo do footer */
-    border-top: 3px solid #5a5eff; /* Tom de roxo */
+    background-color: #1a1a1a; 
+    border-top: 3px solid #5a5eff; 
 }
 
 footer p {
-    color: #f0f0f0; /* Texto claro */
+    color: #f0f0f0; 
     font-size: 0.9rem;
 }
