@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {   
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d; /* Fundo preto */
+    color: #f0f0f0; /* Texto claro */
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Cabeçalho */
+header.cabecalho {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+header a.voltar {
+    text-decoration: none;
+    color: #5a5eff; /* Tom de roxo */
+    font-size: 1.2rem;
+    background-color: #1a1a1a; /* Fundo escuro */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #5a5eff; /* Tom de roxo */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header a.voltar:hover {
+    background-color: #5a5eff; /* Tom de roxo */
+    color: #1a1a1a; /* Fundo escuro */
+}
+
+/* Container principal */
+.container {
+    background-color: #1a1a1a; /* Cor do fundo do container */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(151, 71, 255, 0.562); /* Sombra roxa */
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 20px; /* Espaço entre as divs */
+}
+
+/* Container da mensagem */
+.mensagem-container {
+    background-color: #1a1a1a; /* Cor do fundo do container da mensagem */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(151, 71, 255, 0.562); /* Sombra roxa */
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Estilo de títulos */
+h1 {
+    font-size: 2.5rem;
+    color: #5a5eff; /* Tom de roxo */
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a; /* Fundo do footer */
+    border-top: 3px solid #5a5eff; /* Tom de roxo */
+}
+
+footer p.copyrigth {
+    color: #f0f0f0; /* Texto claro */
+    font-size: 0.9rem;
+}

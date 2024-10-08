@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Cabeçalho */
+header.cabecalho {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+header a.voltar {
+    text-decoration: none;
+    color: #6647ff; /* Cor roxa */
+    font-size: 1.2rem;
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #6647ff; /* Cor roxa */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header a.voltar:hover {
+    background-color: #6647ff; /* Cor roxa */
+    color: #1a1a1a;
+}
+
+/* Container principal */
+.container {
+    background-color: #1a1a1a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(102, 71, 255, 0.5); /* Sombra roxa */
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Estilo de títulos */
+h1 {
+    font-size: 2.5rem;
+    color: #6647ff; /* Cor roxa */
+    margin-bottom: 20px;
+}
+
+/* Estilo dos formulários */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    color: #6647ff; /* Cor roxa */
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #f0f0f0;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #6647ff; /* Cor roxa */
+    background-color: #444;
+}
+
+/* Estilo do botão */
+button {
+    background-color: #6647ff; /* Cor roxa */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7700ff; /* Cor roxa mais escura */
+}
+
+/* Estilo do resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #f0f0f0;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-top: 3px solid #6647ff; /* Cor roxa */
+}
+
+footer p.copyrigth {
+    color: #f0f0f0;
+    font-size: 0.9rem;
+}
